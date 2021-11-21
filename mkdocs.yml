@@ -1,0 +1,43 @@
+# https://github.com/squidfunk/mkdocs-material/blob/master/mkdocs.yml
+site_name: "PALM"
+site_description: "Webpack desc"
+site_author: "sunshine-grace"
+
+plugins:
+  - search
+  - awesome-pages
+  # - pdf-export
+  # - autolinks
+nav:
+  - 'Welcome': "index.md"
+  - 'Getting Started':
+    - '主题': 'main.md'
+    - '关于': 'about.md'
+
+repo_url: https://github.com/sunshine-grace/webpack-palm-tree.git
+repo_name: ""
+
+theme: 
+  language: zh
+  name: 'material'
+  include_sidebar: true
+  logo: 'assets/favicon.png'
+  favicon: 'assets/favicon.png'
+  feature:
+    tabs: false
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
+  palette:
+    - scheme: default
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
