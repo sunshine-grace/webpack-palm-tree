@@ -5,7 +5,7 @@ site_author: "sunshine-grace"
 
 plugins:
   - search
-  - awesome-pages
+  # - awesome-pages
   # - pdf-export
   # - autolinks
 nav:
