@@ -1,3 +1,5 @@
+# https://github.com/squidfunk/mkdocs-material/tree/master/.github
+
 name: Publish MKDocs via GitHub Pages
 on:
   push:
