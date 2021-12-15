@@ -100,14 +100,14 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - 'Welcome': "index.md"
-  - 'Getting Started':
-    - '主题': 'main.md'
-    - '关于': 'about.md'
+# - 'Welcome': "index.md"
+#   - 'Getting Started':
+#     - '主题': 'main.md'
+#     - '关于': 'about.md'
   - Home: index.md
-    - Getting started:
-      - Installation: main.md
-      - About: about.md
+  - Getting started:
+    - Installation: main.md
+    - About: about.md
 
 # references: https://github.com/squidfunk/mkdocs-material/blob/master/mkdocs.yml
 # # Project information
